@@ -1,4 +1,4 @@
-import delivery from "./Assets/delivery.png"
+import delivery from "../Assets/delivery.png"
 
 function SpecialsCard({ img, title, desc, price, }) {
   return (
