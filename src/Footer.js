@@ -4,10 +4,7 @@ function Footer() {
     return (
         <>
             <footer>
-                <img src={logofooter} alt="logo-footer" />
-                <div></div>
-                <div></div>
-                <div></div>
+                <img src={logofooter} alt="logo-footer" className="footer-logo"/>
             </footer>
         </>
     );
