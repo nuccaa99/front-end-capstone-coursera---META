@@ -159,3 +159,9 @@ h3 {
 .footer-logo {
     width: 50px;
 }
+
+form {
+    display: grid;
+    max-width: 200px;
+    gap: 20px
+}
