@@ -1,8 +1,8 @@
 import BookingForm from "./BookingForm";
 
-function BookingPage() {
+function BookingPage({ availableTimes, dispatch, submitForm }) {
     return (
-        <BookingForm />
+        <BookingForm availableTimes={availableTimes} dispatch={dispatch} submitForm={submitForm}/>
     );
 }
 
